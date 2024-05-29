@@ -175,7 +175,7 @@ func (s Swimming) meanSpeed() float64 {
 	return float64(s.LengthPool) * float64(s.CountPool) / MInKm / s.Duration.Hours()
 }
 
-// Calories возвращает количество калорий, потраченных при плавании.
+// Calories возвращает количество   калорий, потраченных при плавании.
 // Формула расчета:
 // (средняя_скорость_в_км/ч + SwimmingCaloriesMeanSpeedShift) * SwimmingCaloriesWeightMultiplier * вес_спортсмена_в_кг * время_тренировки_в_часах
 // Это переопределенный метод Calories() из Training.
